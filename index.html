@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Beepin' and Boopin'</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Will it beep, or will it boop?</h1>
+      <p></p>
+      <form id="beepBoopForm">
+        <label for="numberInput">Enter a number, then click my eye to see if it will beep or boop</label><br>
+        <input id="numberInput" type="text">
+        <div class="well">
+          <div class="halText">
+            <p><span id="hal">HAL</span>9000</p>
+          </div>
+          <button id="beepBoopButton" class="btn" type="submit" name="button">0</button>
+          <div class="greyBottom">
+
+          </div>
+        </div>
+      </form>
+      <div>
+        <h2>HAL says:</h2>
+        <p><span id="result"></span></p>
+      </div>
+    </div>
+  </body>
+</html>
