@@ -18,11 +18,20 @@ This code is not as dry as it could be. Likely the three separate number finder 
 
 ### Specs
 
-* _The program returns a range of numbers from the users inputted number to 0 "Input: 3, Output: 3,2,1,0"_
-* _The program replaces the number 3 with a phrase "Input: 3, Output: 'phrase',2,1,0"_
-* _The program does the same with the numbers 2 and 1 "Input: 3, Output: 'phrase3','phrase2','phrase1',0_
-* _The program does the same with any number containing a 3, rather than just for the number "3" "Input: 13, Output: 'phrase3', 12, 11...4,'phrase3','phrase2','phrase1',0"_
-* _The program does the same for any number containing a 2 or a 1, with 3 being the priority, followed by 2, then 1 "Input: 23, Output: 'phrase3','phrase2','phrase2',etc.._
+* _The program returns a range of numbers from the users inputted number to 0_
+  * _Input: 3_ 
+  * _Output: 3,2,1,0_
+* _The program replaces the number 3 with a phrase_ 
+  * _Input: 3_ 
+  * _Output: 'phrase',2,1,0_
+* _The program does the same with the numbers 2 and 1_ 
+  * _Input: 3_
+  * _Output: 'phrase3','phrase2','phrase1',0_
+* _The program does the same with any number containing a 3, rather than just for the number "3"_
+  * _Input: 13_
+  * _Output: 'phrase3', 12, 11...4,'phrase3','phrase2','phrase1',0_
+* _The program does the same for any number containing a 2 or a 1, with 3 being the priority, followed by 2, then 1_
+  * _Input: 23, Output: 'phrase3','phrase2','phrase2',etc.._
 
 ## Setup/Installation Requirements
 
