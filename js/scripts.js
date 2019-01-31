@@ -2,7 +2,7 @@
 function numberConvertor(numberInput) {
   var convertedRange = [];
   for (var i = numberInput; i >= 0; i--) {
-    if (i.toString().includes("3")) {
+    if (i.toString().includes(3)) {
       convertedRange.push(" I'm sorry Dave. I'm afraid I can't do that.")
     } else if (i.toString().includes(2)) {
       convertedRange.push(" Boop!")
