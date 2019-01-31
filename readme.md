@@ -6,6 +6,8 @@
 
 ## Description
 
+_Note, this is an updated version of [this](https://github.com/joepritch/beeboop) project._
+
 This project takes an inputted number, converts that number into an array containing the input number and every other number less than it until 0. It then converts that array into a string, and adds spaces after every comma (because it looks better and allows the string to wrap inside of its container). The string is then sent through a series of functions that identify any number containing a "3", "2", or "1", and converts those numbers into phrases.
 
 This process scans for all the "3"s first, so numbers like "300" and "123" will both be converted to the same phrase because both _contain_ a "3". The process then scans for all "2"s, then all "1"s.
@@ -36,7 +38,7 @@ This code is not as dry as it could be. Likely the three separate number finder 
 ## Setup/Installation Requirements
 
 The easy way
-* _Click [Here](https://joepritch.github.io/beeboop)_
+* _Click [Here](https://joepritch.github.io/beepboopfinal)_
 
 
 The advanced way
@@ -57,4 +59,4 @@ _HTML, CSS, JavaScript, BootStrap, jQuery, and as always, Atom and GitBash_
 
 ### MIT License
 
-Copyright (c) 2016 **_Joe Pritchett_**
+Copyright (c) 2019 **_Joe Pritchett_**
